@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">>
+          <li><a href="#">Name</a></li>
+          <li><a href="#">Browse</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Pacifica</h1>
+        <p>Welcome to our next home.</p>
+        <a>Savina, click here.</a>
+      </div>
+    </div> 
+
+    <div class="neighborhood-guides">
+      <div class="container">
+        <h2>A look at your future.</h2>
+        <p>A life of weekend trips and staycations.</p>
+          <div class="row">
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="https://pbs.twimg.com/profile_images/2344224254/me.jpg" >
+            </div>
+          </div>
+                    <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="http://images.teamsugar.com/files/users/1/17470/33_2007/190%20RasLemonDrop.preview.jpg" >
+            </div>
+          </div>
+                    <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="http://upload.wikimedia.org/wikipedia/en/7/75/DowntownSF.jpg" >
+            </div>
+          </div>
+      </div>
+    </div>  
+    
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+		    <div class="col-md-4">
+			    <h3>Napa</h3>
+			    <p>A short drive away.</p>
+			    <p><a href="#">Directions</a></p>
+	        </div>
+	        <div class="col-md-4">
+			    <h3>Host</h3>
+			    <p>Lemon drops by the firepit.</p>
+			    <p><a href="#">Reservations</a></p>
+		    </div>
+		    <div class="col-md-4">
+			    <h3>San Francisco</h3>
+			    <p>City life is nearby.</p>
+			    <p><a href="#">Timetables</a></p>
+		    </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>
